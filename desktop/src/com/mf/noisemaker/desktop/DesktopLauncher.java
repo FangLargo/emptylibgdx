@@ -7,7 +7,7 @@ import com.mf.noisemaker.Noisemaker;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		System.setProperty("org.lwjgl.opengl.Display.allowSoftwareOpenGL", "true");
 		new LwjglApplication(new Noisemaker(), config);
+		//I was here.
 	}
 }
